@@ -7,15 +7,19 @@ body {
 }
 
 h1 {
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-bottom: 5rem;
 }
 
 h2 {
     font-size: 3rem;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
     color:greenyellow;
+}
+
+#save-el{
+    font-size: 1.5rem;
 }
 
 .btn-div{
@@ -23,7 +27,7 @@ h2 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 button {
@@ -36,6 +40,7 @@ button {
     margin-bottom: 2rem;
     border-radius: 5px;
     letter-spacing: 0.1rem;
+    cursor: pointer;
 }
 
 #increment-btn {
@@ -50,3 +55,6 @@ button {
     background:orange;
 }
 
+#save-btn{
+    background: blueviolet;
+}
